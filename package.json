@@ -1,0 +1,19 @@
+{
+  "name": "nutritioncalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nutritionCalculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node nutritionCalculator.ts",
+    "getNutrition": "ts-node nutritionCalculator.ts",
+    "getDishes": "ts-node ./src/dishes.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
